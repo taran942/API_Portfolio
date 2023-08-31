@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; /* Changed the font to Roboto */
+}
+
+body {
+  background-color: #50695a; /* Changed the background color */
+}
+
+.container {
+  background-color: #ffffff;
+  width: 90vw; /* Adjusted container width */
+  max-width: 37.5em;
+  padding: 2.5em 2em; /* Slightly reduced padding */
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 0.5em; /* Slightly increased border radius */
+  box-shadow: 0 1em 1.5em rgba(8, 21, 65, 0.15); /* Adjusted box shadow */
+}
+
+.search-wrapper {
+  display: grid;
+  grid-template-columns: 9fr 3fr;
+  gap: 1em;
+}
+
+.search-wrapper button {
+  font-size: 1.2em; /* Increased font size */
+  background-color: #ff465a; /* Changed button background color */
+  color: #ffffff;
+  padding: 0.8em 1em; /* Adjusted padding */
+  border: none;
+  border-radius: 1.5em;
+  cursor: pointer; /* Added cursor style */
+}
+
+.search-wrapper input {
+  font-size: 1.2em; /* Increased font size */
+  padding: 0.5em 0.8em; /* Adjusted padding */
+  border: none;
+  border-bottom: 2px solid #ff465a; /* Changed input border color */
+  outline: none;
+  color: #222a43;
+}
+
+#result {
+  margin-top: 1.5em; /* Adjusted margin-top */
+}
+
+.container .flag-img {
+  display: block;
+  width: 50%; /* Slightly increased image width */
+  min-width: 8em; /* Adjusted minimum width */
+  margin: 2em auto 1.5em auto; /* Adjusted margins */
+}
+
+.container h2 {
+  font-weight: 600;
+  color: #222a43;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Adjusted letter spacing */
+  margin-bottom: 1.5em; /* Adjusted margin-bottom */
+}
+
+.data-wrapper {
+  margin-bottom: 1em;
+  letter-spacing: 0.5px; /* Adjusted letter spacing */
+}
+
+.container h4 {
+  display: inline;
+  font-weight: 500;
+  color: #222a43;
+}
+
+.container span {
+  color: #5d6274;
+}
+
+.container h3 {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 500; /* Adjusted font weight */
+  color: #ff465a; /* Changed text color */
+}
